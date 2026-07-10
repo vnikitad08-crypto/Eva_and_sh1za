@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.evochat.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "ChatHudMixin",
+    "MouseMixin",
+    "NameTagMixin",
+    "PlayerTabNameMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

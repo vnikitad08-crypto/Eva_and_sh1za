@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "evochat",
+  "version": "${version}",
+  "name": "EvoChat",
+  "description": "EvoChat: окно личных сообщений, автосообщение, прозрачность окна, сбор игроков по кланам, подсветка кланов/врагов, руны, выбор кастомных скинов и таймер ивентов для DiamondWorld.",
+  "authors": [
+    "Grend"
+  ],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "Grend.chatlogger.client.ChatloggerClient",
+      "com.evochat.EvoChatClient"
+    ]
+  },
+  "mixins": [
+    {
+      "config": "chatlogger.client.mixins.json",
+      "environment": "client"
+    },
+    {
+      "config": "evochat.mixins.json",
+      "environment": "client"
+    },
+    {
+      "config": "chatlogger.skins.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=0.17.2",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}",
+    "java": ">=21"
+  }
+}

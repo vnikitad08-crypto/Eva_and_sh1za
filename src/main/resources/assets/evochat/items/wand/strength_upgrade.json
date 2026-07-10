@@ -1,0 +1,7 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "minecraft:prisonevo/wands/strength_upgrade"
+  },
+  "oversized_in_gui": true
+}

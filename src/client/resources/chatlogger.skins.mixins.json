@@ -1,0 +1,13 @@
+{
+  "required": false,
+  "minVersion": "0.8",
+  "package": "Grend.chatlogger.client.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "ItemSkinMixin",
+    "ArmorSkinMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 0
+  }
+}
